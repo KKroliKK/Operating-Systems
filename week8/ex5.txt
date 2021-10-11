@@ -1,0 +1,5 @@
+Physical address is an address of memory sell in the RAM.
+
+Virtual memory is used to give an abstraction of a large (main) memory.
+Operating system maps virtual memory addresses into physical addresses via special table.
+It also may occur that some of virtual addresses are not present in (main) memory at some moments.

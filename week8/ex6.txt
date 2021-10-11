@@ -1,0 +1,6 @@
+16-bit virtual addresses => we have 2^16 addresses
+
+8 KB = 2^10 Bytes
+As we have byte addresable memory, then we need 2^10 bytes for offset of each page
+
+2^16 / 2^10 = 64 pages
