@@ -1,0 +1,2 @@
+To increase Hit/Miss ratio we should reference pages that are now in Main memory.
+To decrease Hit/Miss ratio we should reference pages that are not in Main memory at the moment.
