@@ -1,0 +1,18 @@
+-rw-rw-r-- 1 andrey andrey 13 окт 25 23:08 _ex3.txt
+-rwxrw-rwx 1 andrey andrey 13 окт 25 23:08 _ex3.txt
+
+666:
+Give write, read to the user
+Give write, read to the group
+No rights for the others
+-rw-rw---- 1 andrey andrey 13 окт 25 23:08 _ex3.txt
+
+775:
+All the ritghts for the user
+All the ritghts for the group
+Write and execute for others
+-rwxrwxr-x 1 andrey andrey 13 окт 25 23:08 _ex3.txt
+
+777:
+Give all rights for all
+-rwxrwxrwx 1 andrey andrey 13 окт 25 23:08 _ex3.txt
