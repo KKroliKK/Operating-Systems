@@ -1,0 +1,22 @@
+Recovery
+
+This approach does not require a lot of checks during the work of the CPU.
+If significant number of processes will be deadlocked the utilization of the
+CPU will decrease, the system will detect it, find deadlocked processes and kill
+some of them to solve the problem. To conclude, it is not difficult to implement
+but not really effecive. It can be better than others if deadlocks in our system
+is rare.
+
+
+Prevention
+
+Good approach which is used in real systems. It is implemented via attacking for conditions
+of deadlock appearance. If we want to construct effective system combination of prevention 
+and recovery can be used.
+
+
+Avoidance
+
+Avoidance can be effectively used in systems where we can know needs of processes
+in advance. In such a case we can apply for example the Banker's Algorithm and avoid
+deadlocks if it is possible. To conclude, avoidance is not working model for real systems.
